@@ -1,0 +1,21 @@
+<html><head> 
+    <title>Landscape Test</title> 
+    <style> 
+      body { margin: 0; font-family: Verdana; }  
+      #overlay { position: absolute; color: #fff; padding: 20px; width: 160px;}
+      #canvas { display: none; }
+      #assets { display: none; }
+    </style> 
+  <style type="text/css"></style></head> 
+  <body> 
+    <div id="overlay">
+      <p>
+        <a href="js/app.js">JS-Source</a>
+      </p>
+    </div>
+    <div id="assets"><img id="landscape-image" src="assets/Heightmap.png"/></div>
+    <canvas id="canvas"></canvas>
+    <script src="js/three.min.js"></script> 
+    <script src="js/OrbitControls.js"></script> <!-- added so user can rotate the scene with the mouse -->
+    <script src="js/app.js"></script> 
+</body></html>
